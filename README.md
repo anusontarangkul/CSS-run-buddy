@@ -2,7 +2,7 @@
 
 A landing page to practice HTML and CSS. This page has a form for users to sign up as a Call To Action. The nave bar connects to the different sections of the page to introduce Run Buddy and it's features.
 
-<img src="./assets/screenshot/landing.png" width="400" alt="screenshot">
+![Animated Gif](./assets/screenshot/animated.gif)
 
 ## Table of Contents
 
