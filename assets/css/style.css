@@ -57,6 +57,23 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* HEADER - HOVER */
+
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+.hero-form button:hover {
+  background-color: #39a6b2;
+}
+
+.contact-form button:hover {
+  color: #fce138;
+  background: #39a6b2;
+}
 /* FOOTER */
 
 footer {
@@ -142,6 +159,7 @@ section {
   color: #024e76;
   width: 100%;
   margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .hero-form label {
@@ -163,6 +181,12 @@ section {
   font-size: 20px;
   margin: 0 auto;
   text-align: center;
+}
+
+/* FORM INPUT */
+.form-input:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
 }
 
 /* STEPS */
@@ -193,11 +217,15 @@ section {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #39a6b2;
+}
+
+.step:last-child {
+  border-bottom: none;
 }
 
 .step h3 {
@@ -353,6 +381,17 @@ section {
 
 .flex-row {
   display: flex;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
